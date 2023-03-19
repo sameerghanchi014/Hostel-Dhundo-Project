@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box !important;
+}
+:root{
+    --theme-color: rgb(233, 167, 44);
+}
+a{
+    /* color: azure; */
+    text-decoration: none;
+}
+a:hover{
+    color: var(--theme-color);
+}
+.heading-txt{
+    font-weight: 600;
+}
+.heading-txt span{
+    color: var(--theme-color);
+}
+
+.header-section{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6)url("../images/hostel-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+.navbar{
+    background: none !important;
+    padding: 1rem !important;
+}
+.navbar ul{
+    gap: 1.2rem;
+    /* padding: 1rem; */
+}
+.navbar ul li a{
+    color: white !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* navlink hover effect */
+.nav-link {
+    position: relative;
+}
+.nav-link::after{
+    bottom: -4px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background: var(--theme-color);
+    opacity: 0.6;
+    transition: width 0.2s ease 0s, opacity 0.3s ease 0s;
+    width: 0;
+}
+.nav-link:hover:after{
+    width: 100%;
+    opacity: 0.9;
+}
+/* === navlink hover effect === */
+
+.bi-houses{
+    font-size: 2rem !important;
+}
+.header-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    flex-direction: column;
+}
+.header-txt h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.header-txt h1 span{
+    color: var(--theme-color);
+}
+
+/* Service Section */
+
+/* === Service Section === */
