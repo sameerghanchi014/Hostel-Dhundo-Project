@@ -5,7 +5,7 @@
     --theme-color: rgb(233, 167, 44);
 }
 a{
-    /* color: azure; */
+    color: white;
     text-decoration: none;
 }
 a:hover{
@@ -80,7 +80,15 @@ a:hover{
 .header-txt h1 span{
     color: var(--theme-color);
 }
+.header-txt div a{
+    transition: 0.2s all ease;
+}
 
 /* Service Section */
-
+.hostel-card{
+    background-color: #fafafa;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
 /* === Service Section === */
